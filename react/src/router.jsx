@@ -6,6 +6,7 @@ import Login from "./views/Login";
 import NotFound from "./views/NotFound";
 import Signup from "./views/Signup";
 import Users from "./views/Users";
+import Test from "./views/Test.jsx";
 import UserForm from "./views/UserForm";
 
 const router = createBrowserRouter([
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
         element: <Signup/>
       }
     ]
+  },
+  {
+    path: '/test',
+    element: <Test />
   },
   {
     path: "*",
